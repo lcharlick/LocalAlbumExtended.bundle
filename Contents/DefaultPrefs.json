@@ -1,2 +1,12 @@
 [
+    {
+    "id":"summary_frame",
+    "label":"ID3 Summary Frame",
+    "type": "enum",
+    "values": [
+      "COMM",
+      "TIT3"
+    ],
+    "default": "COMM"
+  }
 ]

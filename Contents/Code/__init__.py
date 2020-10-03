@@ -54,5 +54,5 @@ class LocalAlbumExtended(Agent.Album):
 
 
     def read_summary(self, tags):
-        comm = tags.getall('COMM')
+        comm = tags.getall(Prefs['summary_frame'])
         return comm[0] if comm else ''
